@@ -21,6 +21,7 @@ class Library {
         console.log(`${this.Book} is now issued to ${this.Sname} for 14 days`);
         let R = this.List.indexOf(this.Book);
         this.List.splice(R, 1);
+        // delete a[this.Book]
         ficnk.getBookList();
       } else {
         console.log(
