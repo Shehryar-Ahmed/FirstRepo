@@ -32,6 +32,11 @@ let btn = document.createElement("button");
 let list = document.createElement('ul')
 
 // list.innerHTML(`<li>ok g</li>`)
+input.addEventListener('keyup',function(event){
+  if (event.keyCode === 13){
+    Fetch()
+  }
+})
 btn.textContent = "Meaning?";
 btn.addEventListener("click", Fetch);
 let D = document.getElementById("DIV");
