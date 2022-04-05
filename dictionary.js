@@ -9,10 +9,8 @@ let Fetch1 = () => {
     })
     .then((data) => {
       JSON.stringify(data);
-      console.log(data);
       if (data[0] === undefined) {
         let lst = document.createElement("li");
-        console.log(`${word} can not be found in dictionary`);
         let tn = document.createTextNode(
           `${word} can not be found in dictionary`
         );
@@ -21,7 +19,6 @@ let Fetch1 = () => {
       } else {
         for (i = 0; i <= data[0].meanings[0].definitions.length - 1; i++) {
           let lst = document.createElement("li");
-          console.log(data[0].meanings[0].definitions[i].definition);
           let tn = document.createTextNode(
             `${data[0].meanings[0].definitions[i].definition}`
           );
@@ -29,12 +26,11 @@ let Fetch1 = () => {
           list.appendChild(lst);
         }
       }
-    });
+    })
 };
 // Ajax Xhtml Method
 let Fetch = function () {
   let word = input.value;
-  console.log(word);
   let FetchObj = new XMLHttpRequest();
   FetchObj.open(
     "GET",
@@ -48,11 +44,10 @@ let Fetch = function () {
     list.innerHTML = "";
   };
   FetchObj.onload = function () {
-    // console.log("Chal gya bhai");
+    console.log("Chal gya bhai");
     let Fruits = JSON.parse(this.responseText);
     if (Fruits[0] === undefined) {
       let lst = document.createElement("li");
-      console.log(`${word} can not be found in dictionary`);
       let tn = document.createTextNode(
         `${word} can not be found in dictionary`
       );
@@ -61,7 +56,6 @@ let Fetch = function () {
     } else {
       for (i = 0; i <= Fruits[0].meanings[0].definitions.length - 1; i++) {
         let lst = document.createElement("li");
-        console.log(Fruits[0].meanings[0].definitions[i].definition);
         let tn = document.createTextNode(
           `${Fruits[0].meanings[0].definitions[i].definition}`
         );
@@ -73,11 +67,8 @@ let Fetch = function () {
   FetchObj.send();
 };
 let input = document.createElement("input");
-// input.setAttribute('value','inputValue')
 let btn = document.createElement("button");
 let list = document.createElement("ul");
-
-// list.innerHTML(`<li>ok g</li>`)
 input.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
     Fetch();
