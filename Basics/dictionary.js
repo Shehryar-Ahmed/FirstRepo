@@ -1,3 +1,6 @@
+// import { jQuery } from "/jQuery/jquery-3.6.0.min.js"; 
+// import $ from jQuery
+
 // FetchAPI Method
 let Fetch1 = () => {
   let word = input.value;
@@ -80,3 +83,10 @@ let D = document.getElementById("DIV");
 D.appendChild(input);
 D.appendChild(btn);
 D.appendChild(list);
+
+let butt = document.createElement("button",);
+butt.textContent = 'Hide Me'
+butt.setAttribute('id','butt')
+D.appendChild(butt);
+// $(butt).html('')
+

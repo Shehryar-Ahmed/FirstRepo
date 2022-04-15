@@ -2,8 +2,6 @@ let h, m, s, d, mo;
 let i = 0;
 let z = 0;
 
-
-
 function startTime() {
     const today = new Date();
     h = today.getHours();
