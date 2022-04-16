@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FirstRepo/static/css/main.073c9b0a.css",
-    "main.js": "/FirstRepo/static/js/main.c8c00df3.js",
-    "static/js/787.28cb0dcd.chunk.js": "/FirstRepo/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/FirstRepo/index.html",
-    "main.073c9b0a.css.map": "/FirstRepo/static/css/main.073c9b0a.css.map",
-    "main.c8c00df3.js.map": "/FirstRepo/static/js/main.c8c00df3.js.map",
-    "787.28cb0dcd.chunk.js.map": "/FirstRepo/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Shehryar-Ahmed/FirstRepo/static/css/main.073c9b0a.css",
+    "main.js": "/Shehryar-Ahmed/FirstRepo/static/js/main.25d98b4c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Shehryar-Ahmed/FirstRepo/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Shehryar-Ahmed/FirstRepo/index.html",
+    "main.073c9b0a.css.map": "/Shehryar-Ahmed/FirstRepo/static/css/main.073c9b0a.css.map",
+    "main.25d98b4c.js.map": "/Shehryar-Ahmed/FirstRepo/static/js/main.25d98b4c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Shehryar-Ahmed/FirstRepo/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c8c00df3.js"
+    "static/js/main.25d98b4c.js"
   ]
 }
