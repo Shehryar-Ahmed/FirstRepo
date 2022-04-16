@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shehryar-Ahmed/FirstRepo/static/css/main.073c9b0a.css",
+    "main.js": "/Shehryar-Ahmed/FirstRepo/static/js/main.58318e11.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Shehryar-Ahmed/FirstRepo/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Shehryar-Ahmed/FirstRepo/index.html",
+    "main.073c9b0a.css.map": "/Shehryar-Ahmed/FirstRepo/static/css/main.073c9b0a.css.map",
+    "main.58318e11.js.map": "/Shehryar-Ahmed/FirstRepo/static/js/main.58318e11.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Shehryar-Ahmed/FirstRepo/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.58318e11.js"
+  ]
+}
